@@ -10,3 +10,15 @@ services:
                         - 8000:8000
                 env_file:
                         - ./config/.env.dev
+                depends_on:
+                        - db
+        db:
+                image: postgres:12.0-alpine
+                volumes:
+                        - postgres_data:/var/lib/postgresql/data/
+                environment:
+                        - POSTGRES_USER=interiori_dev
+                        - POSTGRES_PASSWORD=secr3tP@ssw0rd
+                        - POSTGRES_DB=interiori_dev_db
+volumes:
+        postgres_data:
