@@ -4,6 +4,8 @@ This is just a simple Django Docker image.
 
 Go here for markdown syntax: [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+To duplicate this effort, follow the tutorial on [Testdriven.io](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/#project-setup)
+
 ## Launch Dev Environment
 
 These are some instructions for how to get the dev environment up and running at the moment. Granted though, there isn't much to see just yet.
