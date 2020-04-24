@@ -8,7 +8,7 @@ To duplicate this effort, follow the tutorial on [Testdriven.io](https://testdri
 
 ## Launch Dev Environment
 
-These are some instructions for how to get the dev environment up and running at the moment. Granted though, there isn't much to see just yet.
+These are some instructions for how to get the django docker environment up and running. Obviously there isn't much to see, use as a base image for creating other apps.
 
 This first section is just a summary, then it goes into more detail.
 
