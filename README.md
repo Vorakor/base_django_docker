@@ -1,10 +1,8 @@
-# Interiori Core Django App
+# Django App Docker Image
 
-This is the core Interiori app that will run various modules as we build them.
+This is just a simple Django Docker image.
 
 Go here for markdown syntax: [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-**Eric & Aubrey** - use this markdown sheet to detail anything from your standpoint that we may need to add to the core project.
 
 ## Launch Dev Environment
 
@@ -25,7 +23,7 @@ Caution: if you aren't familiar with terminal or the windows equivalent command 
 ## TODO
 
 - Create executables and or other types of graphical scripting that will allow you to simply double click and it will run and launch all the necessary code and commands.
-- At some point in the future create shell scripts to run commands like "**interiori up**" or "**interiori up --env=dev**" as well as commands like "**interiori down**" and "**interiori restart**".
+- At some point in the future create shell scripts to run commands like "**django-app up**" or "**django-app up --env=dev**" as well as commands like "**django-app down**" and "**django-app restart**".
 - Don't forget the docker commands to run for prod:
   - docker-compose -f docker-compose.prod.yml up -d --build
   - docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
